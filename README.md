@@ -33,7 +33,7 @@ Publish the website in the given URL.
 
 ```python math.html
 
-
+math.html
 
 <html>
 <head>
@@ -102,6 +102,7 @@ padding-top: 20px;
 
 
 ```python views.py
+viwes.py
 
 from django.shortcuts import render
 
@@ -134,6 +135,8 @@ def prismarea(request):
 ```
 
 ```python urls.py
+urls.py
+
 rom django.contrib import admin
 from django.urls import path
 from myapp import views
@@ -148,10 +151,12 @@ urlpatterns = [
 
 
 ## OUTPUT:
-![Alt text](output2.png)
+![Alt text](file:///home/sec/fwad/ex05/serversideprocessing/output.jpg![image](https://github.com/ILAIYADEEPAN/serversideprocessing/assets/147473334/7962c5bc-8a96-4667-b6ba-ee6f248080ba)
+
 
 ### Home Page:
-![Alt text](output.jpg)
+![Alt text](file:///home/sec/fwad/ex05/serversideprocessing/output2.png![image](https://github.com/ILAIYADEEPAN/serversideprocessing/assets/147473334/e9a3cca4-8965-4c24-96f6-2634b80c4414)
+
 
 ## Result:
 The program is executed successfullly.
